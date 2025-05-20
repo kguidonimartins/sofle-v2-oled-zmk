@@ -1,187 +1,233 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI]
-  lower:
-  - '&studio_unlock'
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  qwert:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LSHFT}
+  - {t: F, h: LCTRL}
+  - G
+  - H
+  - {t: J, h: RCTRL}
+  - {t: K, h: RSHFT}
+  - {t: L, h: RALT}
+  - {t: ':', h: RGUI}
+  - Z
+  - {t: X, h: outro}
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: ESC, h: LSHFT}
+  - {t: TAB, h: LCMD}
+  - {t: RET, h: nav}
+  - {t: SPACE, h: sym}
+  - {t: BSPC, h: num}
+  - {t: DEL, h: fun}
+  num:
+  - '['
   - '7'
   - '8'
   - '9'
+  - ']'
+  - '*'
+  - \
+  - '|'
+  - '%'
+  - ''
+  - (
+  - '4'
+  - '5'
+  - '6'
+  - )
+  - +
+  - {t: _, h: RCTRL}
+  - {t: '-', h: RSHFT}
+  - {t: '=', h: RALT}
+  - {t: ':', h: RGUI}
+  - '{'
+  - '1'
+  - '2'
+  - '3'
+  - '}'
+  - ''
+  - ''
+  - ','
+  - .
+  - /
+  - F2
   - '0'
-  - F12
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  sym:
   - '!'
   - '@'
   - '#'
   - $
   - '%'
+  - '&caps_word'
+  - '`'
+  - '~'
   - ^
-  - '&'
-  - KP MULTIPLY
-  - (
-  - )
-  - '|'
-  - {t: ▽, type: trans}
-  - '='
-  - '-'
-  - KP PLUS
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
   - ;
-  - ':'
-  - \
-  - {t: ▽, type: trans}
-  - '&studio_unlock'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  raise:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - INS
-  - PSCRN
-  - CMENU
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PG UP
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LALT
-  - LCTRL
-  - LSHFT
-  - {t: ▽, type: trans}
-  - CLCK
-  - PG DN
+  - '='
+  - +
+  - '-'
+  - _
+  - '"'
   - LEFT
   - DOWN
+  - UP
   - RIGHT
-  - DEL
+  - ''''
+  - \
+  - '&'
+  - '*'
+  - '|'
+  - ^
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '`'
+  - '~'
+  - ''''
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  nav:
+  - Gui+~
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&caps_word'
+  - '`'
+  - '~'
+  - ^
+  - ;
+  - Gui+TAB
+  - ''
+  - ''
+  - ''
+  - ''
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - '"'
+  - Gui+Sft+TAB
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&tmux_list'
+  - ''
+  - ''
+  - ''
+  - ''''
+  - ''
+  - ''
+  - {type: held}
+  - ''
   - BSPC
-  - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  adjust:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - ''
+  outro:
   - ''
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - EP TOG
-  - RGB HUD
-  - RGB HUI
-  - RGB SAD
-  - RGB SAI
-  - RGB EFF
+  - Gui+Ctl+Y
+  - PREV
+  - PP
+  - NEXT
+  - '&macro_print_area_default'
   - ''
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - RGB BRD
-  - RGB BRI
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - RGB TOG
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
+  - BRI DN
+  - VOL DN
+  - VOL UP
+  - BRI UP
+  - '&macro_print_area_clipboard'
   - ''
   - {type: held}
   - ''
   - ''
   - ''
+  - ''
+  - MUTE
+  - '&macro_zoomin'
+  - '&macro_zoomout'
+  - '&macro_zoomreset'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  fun:
+  - Gui+Q
+  - Gui+Ctl+W
+  - Gui+Ctl+E
+  - Gui+Ctl+R
+  - Gui+Ctl+T
+  - Gui+Ctl+Y
+  - Gui+Ctl+U
+  - Gui+Ctl+I
+  - Gui+Ctl+O
+  - Gui+Ctl+P
+  - Gui+Ctl+A
+  - Gui+Ctl+S
+  - Gui+Ctl+D
+  - Gui+Ctl+F
+  - Gui+Ctl+G
+  - Gui+Ctl+H
+  - Gui+Ctl+J
+  - Gui+Ctl+K
+  - Gui+Ctl+L
+  - Gui+Ctl+;
+  - Gui+Ctl+Z
+  - Gui+Ctl+X
+  - Gui+Ctl+C
+  - Gui+Ctl+V
+  - Gui+Ctl+B
+  - Gui+Ctl+N
+  - Gui+Ctl+M
+  - Gui+Ctl+,
+  - Gui+Ctl+.
+  - Gui+Ctl+/
+  - ''
+  - ''
+  - Gui+Ctl+RET
+  - ''
+  - BSPC
+  - {type: held}
+combos:
+- p: [31, 34]
+  k: '-'
+- p: [32, 33]
+  k: _
+- p: [30, 35]
+  k: '='
+- p: [20, 29]
+  k: +
