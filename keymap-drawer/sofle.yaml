@@ -1,6 +1,19 @@
 layout: {zmk_keyboard: sofle}
 layers:
   qwert:
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - DEL
+  - ESC
   - Q
   - W
   - E
@@ -11,6 +24,8 @@ layers:
   - I
   - O
   - P
+  - BSPC
+  - TAB
   - {t: A, h: LGUI}
   - {t: S, h: LALT}
   - {t: D, h: LSHFT}
@@ -20,24 +35,47 @@ layers:
   - {t: J, h: RCTRL}
   - {t: K, h: RSHFT}
   - {t: L, h: RALT}
-  - {t: ':', h: RGUI}
+  - {t: ;, h: RGUI}
+  - ''''
+  - LSHFT
   - Z
   - {t: X, h: outro}
   - C
   - V
   - B
+  - MUTE
+  - ''
   - N
   - M
   - ','
   - .
   - /
-  - {t: ESC, h: LSHFT}
+  - RSHFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ESC, h: LSHIFT}
   - {t: TAB, h: LCMD}
   - {t: RET, h: nav}
   - {t: SPACE, h: sym}
   - {t: BSPC, h: num}
   - {t: DEL, h: fun}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   num:
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - {t: ▽, type: trans}
   - '['
   - '7'
   - '8'
@@ -48,6 +86,8 @@ layers:
   - '|'
   - '%'
   - ''
+  - F12
+  - {t: ▽, type: trans}
   - (
   - '4'
   - '5'
@@ -58,23 +98,46 @@ layers:
   - {t: '-', h: RSHFT}
   - {t: '=', h: RALT}
   - {t: ':', h: RGUI}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '{'
   - '1'
   - '2'
   - '3'
   - '}'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ','
   - .
   - /
-  - F2
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   sym:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '!'
   - '@'
   - '#'
@@ -85,6 +148,8 @@ layers:
   - '~'
   - ^
   - ;
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '='
   - +
   - '-'
@@ -95,23 +160,46 @@ layers:
   - UP
   - RIGHT
   - ''''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - \
   - '&'
   - '*'
   - '|'
   - ^
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
   - ''
   - ''
-  - '`'
-  - '~'
-  - ''''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   nav:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Gui+~
   - ''
   - ''
@@ -122,6 +210,8 @@ layers:
   - '~'
   - ^
   - ;
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Gui+TAB
   - ''
   - ''
@@ -132,23 +222,46 @@ layers:
   - UP
   - RIGHT
   - '"'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Gui+Sft+TAB
   - ''
   - ''
   - ''
   - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&tmux_list'
   - ''
   - ''
   - ''
   - ''''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
   - BSPC
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   outro:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -159,6 +272,8 @@ layers:
   - PP
   - NEXT
   - '&macro_print_area_default'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -169,23 +284,46 @@ layers:
   - VOL UP
   - BRI UP
   - '&macro_print_area_clipboard'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - {type: held}
   - ''
   - ''
   - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - MUTE
   - '&macro_zoomin'
   - '&macro_zoomout'
   - '&macro_zoomreset'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   fun:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Gui+Q
   - Gui+Ctl+W
   - Gui+Ctl+E
@@ -196,6 +334,8 @@ layers:
   - Gui+Ctl+I
   - Gui+Ctl+O
   - Gui+Ctl+P
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Gui+Ctl+A
   - Gui+Ctl+S
   - Gui+Ctl+D
@@ -206,22 +346,32 @@ layers:
   - Gui+Ctl+K
   - Gui+Ctl+L
   - Gui+Ctl+;
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Gui+Ctl+Z
   - Gui+Ctl+X
   - Gui+Ctl+C
   - Gui+Ctl+V
   - Gui+Ctl+B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Gui+Ctl+N
   - Gui+Ctl+M
   - Gui+Ctl+,
   - Gui+Ctl+.
   - Gui+Ctl+/
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Gui+Ctl+RET
-  - ''
+  - {t: ▽, type: trans}
   - BSPC
+  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [31, 34]
   k: '-'
