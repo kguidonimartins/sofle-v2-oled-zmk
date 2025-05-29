@@ -357,31 +357,21 @@
 
         nav_layer {
             bindings = <
-&none  &none  &none  &none  &none  &none                       &none       &none     &none   &none      &none              &none
-&none  &none  &none  &none  &none  &none                       &caps_word  &none     &none   &none      &kp SEMI           &none
-&none  &none  &none  &none  &none  &none                       &kp LEFT    &kp DOWN  &kp UP  &kp RIGHT  &kp DOUBLE_QUOTES  &none
-&none  &none  &none  &none  &none  &none       &none    &none  &tmux_list  &none     &none   &none      &none              &none
-              &none  &none  &none  &none       &none          &none     &none     &none     &none  &none
-            >;
-        };
-
-        outro_layer {
-            bindings = <
-&none  &none  &none  &none  &none  &none                       &none               &none          &none          &none           &none                          &none
-&none  &none  &none  &none  &none  &none                       CCY                 &kp C_PREV     &kp C_PP       &kp C_NEXT      &macro_print_area_default  &none
-&none  &none  &none  &none  &none  &none                       &kp C_BRI_DN        &kp C_VOL_DN   &kp C_VOL_UP   &kp C_BRI_UP    &macro_print_area_clipboard    &none
-&none  &none  &none  &none  &none  &none       &none    &none  &none               &kp C_MUTE     &macro_zoomin  &macro_zoomout  &macro_zoomreset               &none
-              &none  &none  &none  &none       &none          &none     &none     &none     &none  &none
+&none  &none  &none  &none  &none  &none                  &none       &none     &none   &none      &none              &none
+&none  &none  &none  &none  &none  &none                  &caps_word  &none     &none   &none      &kp SEMI           &none
+&none  &none  &none  &none  &none  &none                  &kp LEFT    &kp DOWN  &kp UP  &kp RIGHT  &kp DOUBLE_QUOTES  &none
+&none  &none  &none  &none  &none  &none  &none    &none  &tmux_list  &none     &none   &none      &none              &none
+              &none  &none  &none  &none  &none    &none  &none       &none     &none   &none
             >;
         };
 
         fun_layer {
             bindings = <
-&none       &none           &none           &none           &none          &none                                  &none        &none        &none         &none         &none  &none
-&none       &kp LG(Q)       CCW             CCE             CCR            CCT                                    CCY          CCU          CCI           CCO           CCP    &none
-&none       CCA             CCS             CCD             CCF            CCG                                    CCH          CCJ          CCK           CCL           CC_L   &none
-&none       CCZ             CCX             CCC             CCV            CCB  &none                    &none    CCN          CCM          CC_C          CC_D          CC_S   &none
-	    &none           &none           &none           &none          &kp LG(LC(RET))               &none    &kp BSPC     &none        &none         &none
+&trans  &trans         &trans         &trans         &trans         &trans                                       &trans         &trans         &trans             &trans              &trans                 &trans
+&trans  &kp LG(Q)      &kp LC(LG(W))  &kp LC(LG(E))  &kp LG(LC(R))  &kp LG(LC(T))                                &kp LC(LG(Y))  &kp LC(LG(U))  &kp LC(LG(I))      &kp LC(LG(O))       &kp LC(LG(P))          &trans
+&trans  &kp LC(LG(A))  &kp LC(LG(S))  &kp LG(LC(D))  &kp LC(LG(F))  &kp LG(LC(G))                                &kp LC(LG(H))  &kp LG(J)      &kp LC(LG(K))      &kp LC(LG(L))       &kp LC(LG(SEMICOLON))  &trans
+&trans  &kp LG(LC(Z))  &kp LC(LG(X))  &kp LC(LG(C))  &kp LC(LG(V))  &kp LC(LG(B))  &trans                &trans  &kp LC(LG(N))  &kp LG(LC(M))  &kp LC(LG(COMMA))  &kp LG(LC(PERIOD))  &kp LG(LC(SLASH))      &trans
+                       &trans         &trans         &trans         &trans         &kp LC(LG(RETURN))    &trans  &kp BACKSPACE  &trans         &trans             &trans
             >;
         };
     };
