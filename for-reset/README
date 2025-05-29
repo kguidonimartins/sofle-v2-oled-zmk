@@ -1,0 +1,6 @@
+put both halfs in dfu
+reset left, reset right
+put both halfs in dfu
+flash left, flash right
+repair halfs
+reconnect bluetooth
