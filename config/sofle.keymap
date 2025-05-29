@@ -316,11 +316,11 @@
 
 		fun_layer {
 			bindings = <
-            &none  &none         &none         &none        &none               &none                                 &none              &none             &none             &none         &none         &none
-            &none  &kp LG(Q)       CCW             CCE             CCR            CCT        CCY          CCU          CCI           CCO           CCP &none
-            &none  CCA             CCS             CCD             CCF            CCG        CCH          CCJ          CCK           CCL           CC_L &none
-            &none  CCZ             CCX             CCC             CCV            CCB  &kp C_MUTE    &none      CCN          CCM          CC_C          CC_D          CC_S &none
-		   /*&             &*/ &none &none  &none           &none          &kp LG(LC(RET))   &none        &kp BSPC     &none &none &none        /*&           &*/
+            &none  &none           &none           &none           &none          &none                          &none        &none       &none         &none          &none         &none
+            &none  &kp LG(Q)       CCW             CCE             CCR            CCT                            CCY          CCU          CCI           CCO           CCP          &none
+            &none  CCA             CCS             CCD             CCF            CCG                            CCH          CCJ          CCK           CCL           CC_L         &none
+            &none  CCZ             CCX             CCC             CCV            CCB      &none    &none        CCN          CCM          CC_C          CC_D          CC_S         &none
+		           &none &none   &none           &none          &kp LG(LC(RET))                                                        &none        &kp BSPC     &none      &none      &none
 			>;
 		};
 	};
