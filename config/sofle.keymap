@@ -369,7 +369,7 @@
             bindings = <
 &trans  &trans         &trans         &trans         &trans         &trans                                       &trans         &trans         &trans             &trans              &trans                 &trans
 &trans  &kp LG(Q)      &kp LC(LG(W))  &kp LC(LG(E))  &kp LG(LC(R))  &kp LG(LC(T))                                &kp LC(LG(Y))  &kp LC(LG(U))  &kp LC(LG(I))      &kp LC(LG(O))       &kp LC(LG(P))          &trans
-&trans  &kp LC(LG(A))  &kp LC(LG(S))  &kp LG(LC(D))  &kp LC(LG(F))  &kp LG(LC(G))                                &kp LC(LG(H))  &kp LG(J)      &kp LC(LG(K))      &kp LC(LG(L))       &kp LC(LG(SEMICOLON))  &trans
+&trans  &kp LC(LG(A))  &kp LC(LG(S))  &kp LG(LC(D))  &kp LC(LG(F))  &kp LG(LC(G))                                &kp LC(LG(H))  &kp LG(LC(J))  &kp LC(LG(K))      &kp LC(LG(L))       &kp LC(LG(SEMICOLON))  &trans
 &trans  &kp LG(LC(Z))  &kp LC(LG(X))  &kp LC(LG(C))  &kp LC(LG(V))  &kp LC(LG(B))  &trans                &trans  &kp LC(LG(N))  &kp LG(LC(M))  &kp LC(LG(COMMA))  &kp LG(LC(PERIOD))  &kp LG(LC(SLASH))      &trans
                        &trans         &trans         &trans         &trans         &kp LC(LG(RETURN))    &trans  &kp BACKSPACE  &trans         &trans             &trans
             >;
