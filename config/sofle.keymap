@@ -359,10 +359,10 @@
 
         nav_layer {
             bindings = <
-&none  &none  &none  &none  &none  &none                  &none       &none     &none   &none      &none              &none
-&none  &none  &none  &none  &none  &none                  &caps_word  &none     &none   &none      &kp SEMI           &none
-&none  &none  &none  &none  &none  &none                  &kp LEFT    &kp DOWN  &kp UP  &kp RIGHT  &kp DOUBLE_QUOTES  &none
-&none  &none  &none  &none  &none  &none  &none    &none  &tmux_list  &none     &none   &none      &none              &none
+&none  &none  &none  &none  &none  &none                  &none       &none     &none   &none      &none             &none
+&none  &none  &none  &none  &none  &none                  &caps_word  &none     &none   &none      &kp SEMI          &none
+&none  &none  &none  &none  &none  &none                  &kp LEFT    &kp DOWN  &kp UP  &kp RIGHT  &kp SINGLE_QUOTE  &none
+&none  &none  &none  &none  &none  &none  &none    &none  &tmux_list  &none     &none   &none      &none             &none
               &none  &none  &none  &none  &none    &none  &none       &none     &none   &none
             >;
         };
