@@ -388,9 +388,9 @@ ZMK_HOLD_TAP(hmr,
         nav_layer {
             bindings = <
 &none  &none            &none  &none  &none  &none                  &none       &none     &none   &none      &none              &none
-&none  &kp LG(TILDE)    &none  &none  &none  &none                  &caps_word  &none     &none   &none      &kp SEMI           &none
+&none  &kp LG(TILDE)    &none  &none  &none  &none                  &kp GRAVE  &kp APOSTROPHE      &kp TILDE   &kp CARET      &kp SEMI           &none
 &none  &kp LG(TAB)      &none  &none  &none  &none                  &kp LEFT    &kp DOWN  &kp UP  &kp RIGHT  &kp DOUBLE_QUOTES  &none
-&none  &kp LG(LS(TAB))  &none  &none  &none  &none  &none    &none  &tmux_list  &none     &none   &none      &kp SINGLE_QUOTE   &none
+&none  &kp LG(LS(TAB))  &none  &none  &none  &none  &none    &none  &tmux_list  &caps_word     &none   &none      &kp SINGLE_QUOTE   &none
                         &none  &none  &none  &none  &none    &none  &none       &none     &none   &none
             >;
         };
