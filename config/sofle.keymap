@@ -378,7 +378,7 @@ ZMK_HOLD_TAP(hmr,
         sym_layer {
             bindings = <
 &none  &none      &none     &none      &none      &none                            &none       &none      &none      &none      &none     &none
-&none  &kp EXCL   &kp AT    &kp HASH   &kp DLLR   &kp PRCNT                        &caps_word  &kp GRAVE  &kp TILDE  &kp CARET  &kp SEMI  &none
+&none  &kp EXCL   &kp AT    &kp HASH   &kp DLLR   &kp PRCNT                        &none  &none  &none  &none  &none  &none
 &none  &kp EQUAL  &kp PLUS  &kp MINUS  &kp UNDER  &kp DQT                          &kp LEFT    &kp DOWN   &kp UP     &kp RIGHT  &kp SQT   &none
 &none  &kp BSLH   &kp AMPS  &kp STAR   &kp PIPE   &kp CARET  &kp C_MUTE    &none   &none       &none      &none      &none      &none     &none
                   &none     &none      &kp GRAVE  &kp TILDE  &kp SQT       &trans  &trans      &trans     &none      &none
@@ -388,7 +388,7 @@ ZMK_HOLD_TAP(hmr,
         nav_layer {
             bindings = <
 &none  &none            &none  &none  &none  &none                  &none       &none     &none   &none      &none              &none
-&none  &kp LG(TILDE)    &none  &none  &none  &none                  &kp GRAVE  &kp APOSTROPHE      &kp TILDE   &kp CARET      &kp SEMI           &none
+&none  &kp LG(TILDE)    &none  &none  &none  &none                  &kp GRAVE  &kp TILDE      &kp APOSTROPHE   &kp CARET      &kp SEMI           &none
 &none  &kp LG(TAB)      &none  &none  &none  &none                  &kp LEFT    &kp DOWN  &kp UP  &kp RIGHT  &kp DOUBLE_QUOTES  &none
 &none  &kp LG(LS(TAB))  &none  &none  &none  &none  &none    &none  &tmux_list  &caps_word     &none   &none      &kp SINGLE_QUOTE   &none
                         &none  &none  &none  &none  &none    &none  &none       &none     &none   &none
